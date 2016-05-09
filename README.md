@@ -62,3 +62,7 @@ After deobfuscating some of the source using [jsbeautifier.org](http://jsbeautif
 ## Analysis
 
 Brief analysis of the JavaScript reveals that this plugin is intended to inspect the contents of pages loaded in the browser. If the contents match that of specific Bitcoin websites such as blockchain.info, the extension makes substitutions, redirecting bitcoin funds sent by the user to an unintended and malicious recipient. The recipient address, [17gJN422WXBypfsnLuABiaGdWJmhAsDZ6w](https://blockchain.info/address/17gJN422WXBypfsnLuABiaGdWJmhAsDZ6w), has obtained 4.25460671 BTC currently valued at $1,964 USD to date.
+
+## Other sites serving variants of the malware
+
+* `hxxp://bitcoinfarm.ru/`: Once "logged in" with any Bitcoin address, this links to another Chrome extension hosted on this domain. The JavaScript in that extension has similar behavior but the source is less obfuscated. It includes the same thief's Bitcoin address. Files: [zip source](sample/plugin1.7.zip) (SHA256: f5b30059e07c88d061e536a104fc0063807e003404c2d6f84c21bf04e057f2bf) [JavaScript](sample/script.js)
