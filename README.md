@@ -57,7 +57,7 @@ The instructions also tell the user how to permit the installation of browser ex
 
 Once uncompressed, the Autoplugin.zip file contains a packed JavaScript file, [js.js](sample/js.js)
 
-After deobfuscating some of the source using (jsbeautifier.org)[http://jsbeautifier.org/], we obtain a clearer version: [js-beautified.js](sample/js-beautified.js). Substituting array references using [unpack.py](tools/unpack.py), we obtain an unpacked version: [js-unpacked.js](sample/js-unpacked.js).
+After deobfuscating some of the source using [jsbeautifier.org](http://jsbeautifier.org/), we obtain a clearer version: [js-beautified.js](sample/js-beautified.js). Substituting array references using [unpack.py](tools/unpack.py), we obtain an unpacked version: [js-unpacked.js](sample/js-unpacked.js).
 
 ## Analysis
 
