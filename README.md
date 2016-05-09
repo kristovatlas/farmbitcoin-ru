@@ -12,6 +12,29 @@ When visiting the following URL (masked) in Google Chrome on March 9, 2016, a li
 
 `hxxp://farmbitcoin.ru/`
 
+WHOIS information for this domain:
+
+```
+% By submitting a query to RIPN's Whois Service
+% you agree to abide by the following terms of use:
+% http://www.ripn.net/about/servpol.html#3.2 (in Russian)
+% http://www.ripn.net/about/en/servpol.html#3.2 (in English).
+
+domain: FARMBITCOIN.RU
+nserver: ns1.fornex.com.
+nserver: ns2.fornex.com.
+state: REGISTERED, DELEGATED, VERIFIED
+person: Private Person
+registrar: REGRU-RU
+admin-contact: http://www.reg.ru/whois/admin_contact
+created: 2016.04.28
+paid-till: 2017.04.28
+free-date: 2017.05.29
+source: TCI
+
+Last updated on 2016.05.09 22:06:33 MSK
+```
+
 ![A screenshot of farmbitcoin-ru's root.](web/farmbitcoin-ru1.png)
 
 The HTML source of this web page is provided in [index.html](web/index.html).
